@@ -51,6 +51,35 @@ imprimirtexto("Resto 3 e 2=".resto(3,2));
 //imprimirtexto("ultima chamada");
 
 
+function lendariacalculadora($num1, $num2,$operacao){
+
+    $resultado = 0;
+
+    if($operacao == "+"){
+        $resultado = adicao($num1, $num2);
+    }
+    else if($operacao == "-"){
+        $resultado = subtracao($num1, $num2);
+    }
+    else if($operacao == "*"){
+        $resultado = multiplicacao($num1, $num2);
+    }
+    else if($operacao == "/"){
+        $resultado = divisao($num1, $num2);
+    }
+    else if($operacao == "M"){
+        $resultado = media($num1, $num2);
+    }
+    else if($operacao == "R"){
+        $resultado = resto($num1, $num2);
+    }
+    else{
+        $resultado = "Operação Inválida";
+    }
+    imprimirtexto($resultado);
+}
+lendariacalculadora(20,10,"M");
+lendariacalculadora(20,10,"tyt");
 
 
 
