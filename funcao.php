@@ -79,7 +79,12 @@ function lendariacalculadora($num1, $num2,$operacao){
     imprimirtexto($resultado);
 }
 lendariacalculadora(20,10,"M");
-lendariacalculadora(20,10,"tyt");
+lendariacalculadora(20,10,"-");
+lendariacalculadora(20,10,"+");
+lendariacalculadora(20,10,"/");
+lendariacalculadora(20,10,"R");
+lendariacalculadora(20,10,"*");
+
 
 
 
